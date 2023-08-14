@@ -2,6 +2,7 @@ defmodule ElixirTesteTest.EscreveNumeroAleatorioTest do
   use ExUnit.Case
   import Mock
 
+
   test "2 escritas no arquivo geram números diferentes" do
       ElixirTeste.EscreveNumeroAleatorio.escreve
 
